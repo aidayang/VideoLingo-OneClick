@@ -1,6 +1,8 @@
 # VideoLingo-OneClick
 VideoLingo全自动视频翻译配音加字幕软件，免安装一键启动整合包
 
+### 2025-12-07 新增index-tts声音克隆语音合成功能，实现分角色配音
+
 ## VideoLingo软件说明
 VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Netflix 级别的高质量字幕，告别生硬机翻，告别多行字幕，还能加上高质量的克隆配音，让全世界的知识能够跨越语言的障碍共享。
 
@@ -25,29 +27,31 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 ## VideoLingo整合包使用说明
 首先到网盘内把软件压缩包下载到本地电脑上并解压，然后双击【启动软件.exe】。稍等片刻会打开webUI操作界面。
 
-左侧为参数设置。首先设置大语言模型。这里推荐使用当前火遍全球的DeepSeek，支持R1和V3模型，现在搞活动，新用户通过手机号注册可获得2000万 Tokens，注册链接：https://bit.ly/depsk1
+启动时会首先初始化载入模型，请耐心等待
 
-点击左侧导航【API密钥】，右上角点击按钮【新建API密钥】，然后点击生成的密钥sk-s开头的这一串字符串即可复制到剪切板
+翻译工具使用的大语言模型，需要填写API key。类openai的都可以。
 
-然后将密钥字符串粘贴到VideoLingo的LLM设置-API密钥输入框中。
+如果你还没有API的话，可以点击下方链接免费费申请
 
-字幕设置里，原视频是什么语言识别语言就选什么语言，最终视频想要什么语言目标语言就选什么。
+[申请API KEY>>](https://console.compshare.cn/light-gpu/api-keys?referral_code=FlfHWpg22A9EnXni6kYKRv)
 
-配音设置里推荐使用edge_tts，这是微软的文字转语音工具，生成速度快，
+配音设置里推荐使用index-tts,声音自然，效果好
+
+电脑配置低可使用edge_tts，这是微软的文字转语音工具，生成速度快，
 
 软件设置完成后，就可以在右侧上传视频进行操作了。
 
-视频教程：[youtube>>](https://www.youtube.com/watch?v=4mJMX9qVUe4)
+视频教程：https://www.youtube.com/watch?v=jB5-flxJXsk
 ## 注意事项
+英伟达显卡显存6G以上
 
 电脑系统需要win10或11
 
 软件运行路径中不能有空格和非英文字符
 
 ## VideoLingo免安装一键启动整合包下载链接
-https://pan.baidu.com/s/14vud_zXq-y8lk8OBkXXiKQ?pwd=tp4x
 
-https://pan.quark.cn/s/8ab575e5df20
+https://pan.quark.cn/s/b3935e663c76
 
 ## VideoLingo项目链接
 https://github.com/Huanshere/VideoLingo
