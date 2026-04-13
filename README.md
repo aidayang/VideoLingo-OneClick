@@ -77,3 +77,6 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 https://nuowa.net/1697
 
+## 原项目链接
+
+https://github.com/Huanshere/VideoLingo
