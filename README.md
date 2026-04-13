@@ -65,7 +65,8 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 <strong>使用批量功能前请务必先在页面上完成一次有效的单视频翻译，也就是确保你的所有配置信息都是有效的，然后才可以使用批量功能</strong>
 
-视频教程：https://www.youtube.com/watch?v=jB5-flxJXsk
+视频教程：https://www.youtube.com/watch?v=FeIo0sBjZZo
+
 ## 注意事项
 英伟达显卡显存6G以上
 
