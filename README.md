@@ -1,11 +1,12 @@
 # VideoLingo-OneClick
 VideoLingo + Index-TTS 批量全自动视频翻译配音加字幕软件，免安装一键启动整合包
 
-### 2025-12-07 新增index-tts声音克隆语音合成功能，实现分角色配音
+### 2026-04-16 增加cosyvoice3.0，自定义字体，优化已知问题
+为支持多国语言合成，删除了indextts配音，增加cosyvoice3.0，支持常见9种语言语音合成。合成速度提高超50%
 
-### 2026-02-04 更新edge-tts接口，优化index-tts
+原默认字体对英文以外字体支持较差，新增可手动选择想使用的字体
 
-### 2026-04-12 更新至3.0.1，修复已知bug，整合包新增批量处理功能
+增加支持韩语翻译
 
 ## VideoLingo软件说明
 VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Netflix 级别的高质量字幕，告别生硬机翻，告别多行字幕，还能加上高质量的克隆配音，让全世界的知识能够跨越语言的障碍共享。
@@ -39,7 +40,7 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 [申请API KEY>>](https://console.compshare.cn/light-gpu/api-keys?referral_code=FlfHWpg22A9EnXni6kYKRv)
 
-配音设置里推荐使用index-tts,声音自然，效果好，支持声音克隆，可实现分角色配音
+配音设置里推荐使用cosyvoice3,声音自然，效果好，支持声音克隆，可实现分角色配音
 
 电脑配置低可使用edge_tts，这是微软的在线文字转语音工具，云端生成，速度快，
 
@@ -55,7 +56,7 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 如果是填视频URL的话，确保你的IP是干净的，防止批量下载触发Google机器人验证，导致下载失败任务终止，所以还是建议手动将视频下载到本地文件夹，输入框里输入文件夹路径。下载youtube视频可参考：https://github.com/aidayang/youtubedl
 
-原语言：en，zh，es，ru，fr，de，it，ja
+原语言：en，zh，es，ru，fr，de，it，ja,ko
 
 目标语言：用自然语言描述，如简体中文，英语，法语，俄语等等
 
