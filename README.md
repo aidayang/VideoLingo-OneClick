@@ -81,6 +81,8 @@ VideoLingo 是一站式视频翻译本地化配音工具，能够一键生成 Ne
 
 https://nuowa.net/1697
 
+我新做了个同类软件，欢迎体验：https://github.com/aidayang/AutoVidDub
+
 ## 原项目链接
 
 https://github.com/Huanshere/VideoLingo
